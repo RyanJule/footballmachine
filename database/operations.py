@@ -3,7 +3,7 @@ from typing import Dict, List
 from datetime import datetime
 
 from config.database import SessionLocal
-from database.models import Team, Player, Season, Game, Play
+from database.models import Team, Player, Season, Game, Play, PlayerSeason
 from utils.logger import processing_logger
 
 
@@ -42,7 +42,55 @@ class DatabaseOperations:
             self.db.rollback()
             processing_logger.error(f"Failed to create/update team: {str(e)}")
             raise
+
+    def create_or_update_player(self, player_data: Dict) -> Player:
+        """Create or update player record"""
+        try:
+            player = self.db.query(Player).filter(Player.pfr_id == player_data['pfr_id']).first()
+            
+            if player:
+                # Update existing
+                for key, value in player_data.items():
+                    if hasattr(player, key):
+                        setattr(player, key, value)
+            else:
+                # Create new
+                player = Player(**player_data)
+                self.db.add(player)
+            
+            self.db.commit()
+            self.db.refresh(player)
+            return player
+            
+        except Exception as e:
+            self.db.rollback()
+            processing_logger.error(f"Failed to create/update player: {str(e)}")
+            raise
     
+    def create_or_update_player_season(self, player_season_data: Dict) -> Player:
+        """Create or update player record"""
+        try:
+            player_season = self.db.query(PlayerSeason).filter(PlayerSeason.player_id == player_season_data['player_id']).first()
+            
+            if player_season:
+                # Update existing
+                for key, value in player_season_data.items():
+                    if hasattr(player_season, key):
+                        setattr(player_season, key, value)
+            else:
+                # Create new
+                player_season = PlayerSeason(**player_season_data)
+                self.db.add(player_season)
+            
+            self.db.commit()
+            self.db.refresh(player_season)
+            return player_season
+            
+        except Exception as e:
+            self.db.rollback()
+            processing_logger.error(f"Failed to create/update player: {str(e)}")
+            raise
+
     def create_or_get_season(self, year: int) -> Season:
         """Create or get season record"""
         try:
@@ -97,3 +145,18 @@ class DatabaseOperations:
             self.db.rollback()
             processing_logger.error(f"Failed to bulk create plays: {str(e)}")
             raise
+    
+    def get_players_by_team_season(self, team_id: int, season_id: int):
+        try:
+            from database.models import Player, PlayerSeason
+            
+            players = self.db.query(Player).join(PlayerSeason).filter(
+                PlayerSeason.team_id == team_id,
+                PlayerSeason.season_id == season_id
+            ).all()
+            
+            return players
+            
+        except Exception as e:
+            processing_logger.error(f"Failed to get players: {str(e)}")
+            return []

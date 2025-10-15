@@ -21,3 +21,208 @@
 2025-10-14 18:38:20,472 INFO processing: Built roster tensor with 0 players
 2025-10-14 18:38:20,472 INFO processing: Built game tensor with shape (85810,)
 2025-10-14 18:38:20,474 ERROR processing: Failed to build player tensor: 'NoneType' object has no attribute 'get'
+2025-10-14 23:06:08,092 INFO processing: DataPipeline initialized
+2025-10-14 23:06:08,094 INFO processing: DataPipeline initialized
+2025-10-14 23:06:08,188 INFO processing: DataPipeline initialized
+2025-10-14 23:06:08,188 ERROR processing: Failed to process player: 'DatabaseOperations' object has no attribute 'create_or_update_player'
+2025-10-14 23:06:08,506 INFO processing: DataPipeline initialized
+2025-10-14 23:06:08,608 INFO processing: DataPipeline initialized
+2025-10-14 23:06:08,608 ERROR processing: Failed to process player: 'DatabaseOperations' object has no attribute 'create_or_update_player'
+2025-10-14 23:06:08,757 INFO processing: DataPipeline initialized
+2025-10-14 23:06:08,784 INFO processing: Created 1 play records
+2025-10-14 23:06:08,784 INFO processing: Processed 1 plays
+2025-10-14 23:06:08,784 INFO processing: Processed game: 202409050buf
+2025-10-14 23:06:08,903 INFO processing: DataPipeline initialized
+2025-10-14 23:06:08,921 INFO processing: Created 3 play records
+2025-10-14 23:06:08,921 INFO processing: Processed 3 plays
+2025-10-14 23:06:08,921 INFO processing: Processed game: 202409050buf2
+2025-10-14 23:06:09,181 INFO processing: DataPipeline initialized
+2025-10-14 23:06:09,184 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:06:09,184 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:06:09,184 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:06:09,184 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:06:09,185 INFO processing: Built game tensor for game 1
+2025-10-14 23:06:09,217 INFO processing: DataPipeline initialized
+2025-10-14 23:06:09,297 INFO processing: DataPipeline initialized
+2025-10-14 23:38:17,377 INFO processing: DataPipeline initialized
+2025-10-14 23:38:17,379 INFO processing: DataPipeline initialized
+2025-10-14 23:38:17,468 INFO processing: DataPipeline initialized
+2025-10-14 23:38:17,496 INFO processing: Processed player: Test Player
+2025-10-14 23:38:17,618 INFO processing: DataPipeline initialized
+2025-10-14 23:38:17,731 INFO processing: DataPipeline initialized
+2025-10-14 23:38:17,736 INFO processing: Processed player: Duplicate Player
+2025-10-14 23:38:17,741 INFO processing: Processed player: Duplicate Player Updated
+2025-10-14 23:38:17,870 INFO processing: DataPipeline initialized
+2025-10-14 23:38:17,893 INFO processing: Created 1 play records
+2025-10-14 23:38:17,893 INFO processing: Processed 1 plays
+2025-10-14 23:38:17,893 INFO processing: Processed game: 202409050buf
+2025-10-14 23:38:18,026 INFO processing: DataPipeline initialized
+2025-10-14 23:38:18,047 INFO processing: Created 3 play records
+2025-10-14 23:38:18,047 INFO processing: Processed 3 plays
+2025-10-14 23:38:18,047 INFO processing: Processed game: 202409050buf2
+2025-10-14 23:38:18,546 INFO processing: DataPipeline initialized
+2025-10-14 23:38:18,549 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:38:18,549 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:38:18,550 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:38:18,550 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:38:18,551 INFO processing: Built game tensor for game 1
+2025-10-14 23:38:18,586 INFO processing: DataPipeline initialized
+2025-10-14 23:38:18,666 INFO processing: DataPipeline initialized
+2025-10-14 23:41:06,916 INFO processing: DataPipeline initialized
+2025-10-14 23:41:06,918 INFO processing: DataPipeline initialized
+2025-10-14 23:41:07,007 INFO processing: DataPipeline initialized
+2025-10-14 23:41:07,033 INFO processing: Processed player: Test Player
+2025-10-14 23:41:07,147 INFO processing: DataPipeline initialized
+2025-10-14 23:41:07,262 INFO processing: DataPipeline initialized
+2025-10-14 23:41:07,268 INFO processing: Processed player: Duplicate Player
+2025-10-14 23:41:07,274 INFO processing: Processed player: Duplicate Player Updated
+2025-10-14 23:41:07,410 INFO processing: DataPipeline initialized
+2025-10-14 23:41:07,433 INFO processing: Created 1 play records
+2025-10-14 23:41:07,433 INFO processing: Processed 1 plays
+2025-10-14 23:41:07,433 INFO processing: Processed game: 202409050buf
+2025-10-14 23:41:07,568 INFO processing: DataPipeline initialized
+2025-10-14 23:41:07,588 INFO processing: Created 3 play records
+2025-10-14 23:41:07,588 INFO processing: Processed 3 plays
+2025-10-14 23:41:07,588 INFO processing: Processed game: 202409050buf2
+2025-10-14 23:41:07,914 ERROR processing: Failed to create/update player: type object 'PlayerSeason' has no attribute 'pfr_id'
+2025-10-14 23:41:08,061 INFO processing: DataPipeline initialized
+2025-10-14 23:41:08,064 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:41:08,064 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:41:08,065 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:41:08,065 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:41:08,066 INFO processing: Built game tensor for game 1
+2025-10-14 23:41:08,101 INFO processing: DataPipeline initialized
+2025-10-14 23:41:08,180 INFO processing: DataPipeline initialized
+2025-10-14 23:41:39,791 INFO processing: DataPipeline initialized
+2025-10-14 23:41:39,794 INFO processing: DataPipeline initialized
+2025-10-14 23:41:39,880 INFO processing: DataPipeline initialized
+2025-10-14 23:41:39,909 INFO processing: Processed player: Test Player
+2025-10-14 23:41:40,026 INFO processing: DataPipeline initialized
+2025-10-14 23:41:40,136 INFO processing: DataPipeline initialized
+2025-10-14 23:41:40,141 INFO processing: Processed player: Duplicate Player
+2025-10-14 23:41:40,147 INFO processing: Processed player: Duplicate Player Updated
+2025-10-14 23:41:40,279 INFO processing: DataPipeline initialized
+2025-10-14 23:41:40,302 INFO processing: Created 1 play records
+2025-10-14 23:41:40,302 INFO processing: Processed 1 plays
+2025-10-14 23:41:40,302 INFO processing: Processed game: 202409050buf
+2025-10-14 23:41:40,436 INFO processing: DataPipeline initialized
+2025-10-14 23:41:40,456 INFO processing: Created 3 play records
+2025-10-14 23:41:40,457 INFO processing: Processed 3 plays
+2025-10-14 23:41:40,457 INFO processing: Processed game: 202409050buf2
+2025-10-14 23:41:40,766 ERROR processing: Failed to create/update player: type object 'PlayerSeason' has no attribute 'pfr_id'
+2025-10-14 23:41:40,900 INFO processing: DataPipeline initialized
+2025-10-14 23:41:40,903 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:41:40,903 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:41:40,903 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:41:40,903 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:41:40,905 INFO processing: Built game tensor for game 1
+2025-10-14 23:41:40,937 INFO processing: DataPipeline initialized
+2025-10-14 23:41:41,016 INFO processing: DataPipeline initialized
+2025-10-14 23:42:07,370 INFO processing: DataPipeline initialized
+2025-10-14 23:42:07,372 INFO processing: DataPipeline initialized
+2025-10-14 23:42:07,457 INFO processing: DataPipeline initialized
+2025-10-14 23:42:07,487 INFO processing: Processed player: Test Player
+2025-10-14 23:42:07,596 INFO processing: DataPipeline initialized
+2025-10-14 23:42:07,717 INFO processing: DataPipeline initialized
+2025-10-14 23:42:07,723 INFO processing: Processed player: Duplicate Player
+2025-10-14 23:42:07,728 INFO processing: Processed player: Duplicate Player Updated
+2025-10-14 23:42:07,851 INFO processing: DataPipeline initialized
+2025-10-14 23:42:07,872 INFO processing: Created 1 play records
+2025-10-14 23:42:07,872 INFO processing: Processed 1 plays
+2025-10-14 23:42:07,872 INFO processing: Processed game: 202409050buf
+2025-10-14 23:42:08,011 INFO processing: DataPipeline initialized
+2025-10-14 23:42:08,033 INFO processing: Created 3 play records
+2025-10-14 23:42:08,034 INFO processing: Processed 3 plays
+2025-10-14 23:42:08,034 INFO processing: Processed game: 202409050buf2
+2025-10-14 23:42:08,390 INFO processing: DataPipeline initialized
+2025-10-14 23:42:08,394 INFO processing: Built roster tensor with 5 players
+2025-10-14 23:42:08,394 INFO processing: Built roster tensor with 5 players
+2025-10-14 23:42:08,524 INFO processing: DataPipeline initialized
+2025-10-14 23:42:08,528 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:42:08,528 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:42:08,529 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:42:08,529 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:42:08,530 INFO processing: Built game tensor for game 1
+2025-10-14 23:42:08,563 INFO processing: DataPipeline initialized
+2025-10-14 23:42:08,641 INFO processing: DataPipeline initialized
+2025-10-14 23:45:10,168 INFO processing: DataPipeline initialized
+2025-10-14 23:45:10,169 INFO processing: DataPipeline initialized
+2025-10-14 23:45:10,254 INFO processing: DataPipeline initialized
+2025-10-14 23:45:10,282 INFO processing: Processed player: Test Player
+2025-10-14 23:45:10,391 INFO processing: DataPipeline initialized
+2025-10-14 23:45:10,506 INFO processing: DataPipeline initialized
+2025-10-14 23:45:10,511 INFO processing: Processed player: Duplicate Player
+2025-10-14 23:45:10,516 INFO processing: Processed player: Duplicate Player Updated
+2025-10-14 23:45:10,645 INFO processing: DataPipeline initialized
+2025-10-14 23:45:10,666 INFO processing: Created 1 play records
+2025-10-14 23:45:10,666 INFO processing: Processed 1 plays
+2025-10-14 23:45:10,666 INFO processing: Processed game: 202409050buf
+2025-10-14 23:45:10,793 INFO processing: DataPipeline initialized
+2025-10-14 23:45:10,816 INFO processing: Created 3 play records
+2025-10-14 23:45:10,816 INFO processing: Processed 3 plays
+2025-10-14 23:45:10,816 INFO processing: Processed game: 202409050buf2
+2025-10-14 23:45:11,189 INFO processing: DataPipeline initialized
+2025-10-14 23:45:11,192 INFO processing: Built roster tensor with 5 players
+2025-10-14 23:45:11,192 INFO processing: Built roster tensor with 5 players
+2025-10-14 23:45:11,322 INFO processing: DataPipeline initialized
+2025-10-14 23:45:11,325 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:45:11,325 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:45:11,326 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:45:11,326 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:45:11,328 INFO processing: Built game tensor for game 1
+2025-10-14 23:45:11,361 INFO processing: DataPipeline initialized
+2025-10-14 23:45:11,443 INFO processing: DataPipeline initialized
+2025-10-14 23:45:21,365 INFO processing: DataPipeline initialized
+2025-10-14 23:45:21,367 INFO processing: DataPipeline initialized
+2025-10-14 23:45:21,452 INFO processing: DataPipeline initialized
+2025-10-14 23:45:21,479 INFO processing: Processed player: Test Player
+2025-10-14 23:45:21,590 INFO processing: DataPipeline initialized
+2025-10-14 23:45:21,697 INFO processing: DataPipeline initialized
+2025-10-14 23:45:21,702 INFO processing: Processed player: Duplicate Player
+2025-10-14 23:45:21,707 INFO processing: Processed player: Duplicate Player Updated
+2025-10-14 23:45:21,833 INFO processing: DataPipeline initialized
+2025-10-14 23:45:21,856 INFO processing: Created 1 play records
+2025-10-14 23:45:21,857 INFO processing: Processed 1 plays
+2025-10-14 23:45:21,857 INFO processing: Processed game: 202409050buf
+2025-10-14 23:45:21,996 INFO processing: DataPipeline initialized
+2025-10-14 23:45:22,018 INFO processing: Created 3 play records
+2025-10-14 23:45:22,018 INFO processing: Processed 3 plays
+2025-10-14 23:45:22,018 INFO processing: Processed game: 202409050buf2
+2025-10-14 23:45:22,412 INFO processing: DataPipeline initialized
+2025-10-14 23:45:22,416 INFO processing: Built roster tensor with 5 players
+2025-10-14 23:45:22,416 INFO processing: Built roster tensor with 5 players
+2025-10-14 23:45:22,544 INFO processing: DataPipeline initialized
+2025-10-14 23:45:22,547 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:45:22,548 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:45:22,548 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:45:22,548 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:45:22,549 INFO processing: Built game tensor for game 1
+2025-10-14 23:45:22,583 INFO processing: DataPipeline initialized
+2025-10-14 23:45:22,662 INFO processing: DataPipeline initialized
+2025-10-14 23:45:54,545 INFO processing: DataPipeline initialized
+2025-10-14 23:45:54,547 INFO processing: DataPipeline initialized
+2025-10-14 23:45:54,631 INFO processing: DataPipeline initialized
+2025-10-14 23:45:54,657 INFO processing: Processed player: Test Player
+2025-10-14 23:45:54,777 INFO processing: DataPipeline initialized
+2025-10-14 23:45:54,885 INFO processing: DataPipeline initialized
+2025-10-14 23:45:54,890 INFO processing: Processed player: Duplicate Player
+2025-10-14 23:45:54,895 INFO processing: Processed player: Duplicate Player Updated
+2025-10-14 23:45:55,024 INFO processing: DataPipeline initialized
+2025-10-14 23:45:55,045 INFO processing: Created 1 play records
+2025-10-14 23:45:55,045 INFO processing: Processed 1 plays
+2025-10-14 23:45:55,045 INFO processing: Processed game: 202409050buf
+2025-10-14 23:45:55,170 INFO processing: DataPipeline initialized
+2025-10-14 23:45:55,191 INFO processing: Created 3 play records
+2025-10-14 23:45:55,191 INFO processing: Processed 3 plays
+2025-10-14 23:45:55,191 INFO processing: Processed game: 202409050buf2
+2025-10-14 23:45:55,370 INFO processing: DataPipeline initialized
+2025-10-14 23:45:55,372 INFO processing: Built roster tensor with 5 players
+2025-10-14 23:45:55,373 INFO processing: Built roster tensor with 5 players
+2025-10-14 23:45:55,497 INFO processing: DataPipeline initialized
+2025-10-14 23:45:55,501 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:45:55,501 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:45:55,501 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:45:55,502 INFO processing: Built roster tensor with 0 players
+2025-10-14 23:45:55,503 INFO processing: Built game tensor for game 1
+2025-10-14 23:45:55,539 INFO processing: DataPipeline initialized
+2025-10-14 23:45:55,615 INFO processing: DataPipeline initialized
