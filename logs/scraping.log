@@ -2,3 +2,58 @@
 2025-10-12 23:15:13,626 WARNING scraping: Attempt 2 failed for failing_function: Temporary failure. Retrying in 0.01s...
 2025-10-12 23:15:13,638 WARNING scraping: Attempt 1 failed for always_failing_function: Always fails. Retrying in 1.0s...
 2025-10-12 23:15:14,638 ERROR scraping: Function always_failing_function failed after 2 attempts: Always fails
+2025-10-14 18:55:46,868 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 18:55:46,910 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 18:55:46,955 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 18:55:46,996 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 18:55:47,038 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 18:55:47,078 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 18:55:47,117 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 18:55:47,117 ERROR scraping: Failed to parse table None: Couldn't find a tree builder with the features you requested: lxml. Do you need to install a parser library?
+2025-10-14 18:55:47,157 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 18:55:47,157 ERROR scraping: Failed to parse table None: Couldn't find a tree builder with the features you requested: lxml. Do you need to install a parser library?
+2025-10-14 18:55:47,373 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 18:55:47,412 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 18:55:47,449 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 18:55:47,489 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 18:55:47,527 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 18:55:47,571 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 18:55:47,624 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 18:55:49,929 INFO scraping: Successfully scraped page: invalid_url
+2025-10-14 18:55:49,929 ERROR scraping: Failed to scrape player: Couldn't find a tree builder with the features you requested: lxml. Do you need to install a parser library?
+2025-10-14 19:09:07,112 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 19:09:07,152 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 19:09:07,194 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 19:09:07,234 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 19:09:07,273 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 19:09:07,312 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 19:09:07,351 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 19:09:07,352 WARNING scraping: Table None not found
+2025-10-14 19:09:07,391 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 19:09:07,436 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 19:09:07,473 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 19:09:07,509 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 19:09:07,546 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 19:09:07,582 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 19:09:07,619 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 19:09:07,662 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 19:09:09,731 INFO scraping: Successfully scraped page: invalid_url
+2025-10-14 19:09:09,732 ERROR scraping: Failed to scrape player: expected string or bytes-like object, got 'MagicMock'
+2025-10-14 22:59:52,765 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 22:59:52,805 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 22:59:52,847 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 22:59:52,887 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 22:59:52,927 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 22:59:52,968 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 22:59:53,006 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 22:59:53,007 WARNING scraping: Table None not found
+2025-10-14 22:59:53,046 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 22:59:53,090 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 22:59:53,126 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 22:59:53,162 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 22:59:53,197 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 22:59:53,233 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 22:59:53,268 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 22:59:53,309 INFO scraping: Selenium WebDriver initialized successfully
+2025-10-14 22:59:55,645 INFO scraping: Successfully scraped page: invalid_url
+2025-10-14 22:59:55,646 ERROR scraping: Failed to scrape player: expected string or bytes-like object, got 'MagicMock'
