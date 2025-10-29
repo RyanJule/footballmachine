@@ -1,0 +1,47 @@
+# ============================================================================
+# NFL ML PREDICTION SYSTEM - REQUIREMENTS
+# ============================================================================
+# Core Application
+Flask==2.3.3
+flask-cors==4.0.0
+python-dotenv==1.0.0
+
+# Database
+SQLAlchemy==2.0.21
+psycopg2-binary==2.9.7
+
+# Web Scraping
+selenium==4.13.0
+beautifulsoup4==4.12.2
+requests==2.31.0
+lxml==4.9.3
+pandas==2.1.1
+fake-useragent==1.4.0
+
+# Machine Learning & Data Processing
+numpy==1.24.3
+tensorflow==2.13.0
+torch==2.0.1
+scikit-learn==1.3.1
+
+# Scheduling & Task Management
+APScheduler==3.10.4
+
+# Cloud Storage (Optional)
+boto3==1.28.48
+
+# Development & Testing
+pytest==7.4.2
+pytest-cov==4.1.0
+pytest-mock==3.11.1
+black==23.9.1
+flake8==6.1.0
+mypy==1.5.1
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Production Server
+gunicorn==21.2.0
+waitress==2.1.2
